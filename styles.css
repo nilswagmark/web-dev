@@ -1,0 +1,57 @@
+h2 {
+    text-align: right;
+    color: indianred;
+    background-color: rgb(255,0,0);
+    font-family: sans-serif;
+}
+
+button {
+    color: magenta;
+}
+
+p {
+    font-weight: 700;
+    color:black;
+    text-decoration: underline;
+    line-height: 2;
+    font-size: 20x;
+}
+
+#username {
+    background-color:gray;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.sqaure {
+    background-color: black;
+}
+
+div {
+    width:200px;
+    height:200px;
+    background-color: red;
+    border-width: 5px;
+    border-color: green;
+    border-style: solid;
+}
+
+#one {
+    background-color: blue;
+    margin: 5px;
+}
+
+#two {
+    border: 5px solid black;
+    border-radius: 70%;
+}
+
+#heaader {
+    background-color: chocolate;
+    color: white;
+    border: 5px solid black;
+    padding: 10px; 
+}
