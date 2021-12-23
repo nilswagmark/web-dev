@@ -1,0 +1,46 @@
+button {
+    width: 200px;
+    height 200px;
+    background-color: maroon;
+}
+
+p {
+    font-size: large;
+}
+
+h1 {
+    font-size: small;
+}
+
+#circle {
+    width: 500px;
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1637419980533-1119de04312f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870&q=80");
+    background-color: black;
+    transition: 3s;
+    margin: auto;
+    background-size: cover;
+}
+
+#circle:hover {
+    background-color: magenta;
+    border-radius: 50%;
+}
+
+section:hover div {
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    width: 200px;
+    height 200px;
+    background-color: maroon;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2:nth-of-type(1) {
+    transform: rotate(180deg);
+    transform: scale(0.5)
+}
+
