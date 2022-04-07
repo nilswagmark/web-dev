@@ -29,32 +29,23 @@ function subtract(x,y) {
 }
 
 
-/* // --- begin mavenoid embedded troubleshooter ---
-(function (m, a, v, e, n, o, i, d) {
-    d = m.createElement(e); d.async = true; d.src = "https://app.mavenoid.com" + v;
-    i = m.getElementsByTagName(e)[0]; i.parentNode.insertBefore(d, i); n[o] = n[o] || [];
-})(document, 0, "/embedded/embedded.js", "script", window, "mavenoid");
-// --- end mavenoid embedded troubleshooter ---
 
-mavenoid.config = {
+
+
+
+
+<script>
+  // --- begin mavenoid embedded troubleshooter ---
+  (function(m,a,v,e,n,o,i,d) {
+    d=m.createElement(e);d.async=true;d.src="https://app.mavenoid.com"+v;
+    i=m.getElementsByTagName(e)[0];i.parentNode.insertBefore(d,i);n[o]=n[o]||[];
+  })(document,0,"/embedded/embedded.js","script",window,"mavenoid");
+  // --- end mavenoid embedded troubleshooter ---
+
+  mavenoid.config = {
     noIframe: false,
-    clientId: "61b3537575003bcda8b6",
-};
-let buttonTextMap = { en: "Get instant help!", de: "Holen Sie sich sofortige Hilfe!", es: "¡Obtenga ayuda instantánea!", it: "Ottieni assistenza immediata!", fr: "Obtenez de l'aide instantanée !"}
-mavenoid.push({ event: "troubleshooter-open", orgName: "KIPPY", position: "right", defaultLang: document.documentElement.lang});
-/* defaultLang: document.documentElement.lang, buttonText: buttonTextMap[lang ?? "en"] */
+    clientId: "d68ecc999b3b97e0c9be3dc2d58f2c87720cf6fb",
+  };
+  mavenoid.push({ event: "troubleshooter-open", orgName: "tedee", position: "right", defaultLang: "en"});
+</script>
 
-
-// --- begin mavenoid embedded troubleshooter ---
-/* (function (m, a, v, e, n, o, i, d) {
-    d = m.createElement(e); d.async = true; d.src = "https://app.mavenoid.com" + v;
-    i = m.getElementsByTagName(e)[0]; i.parentNode.insertBefore(d, i); n[o] = n[o] || [];
-})(document, 0, "/embedded/embedded.js", "script", window, "mavenoid");
-// --- end mavenoid embedded troubleshooter ---
-
-mavenoid.config = {
-    noIframe: false,
-    clientId: "001d862834bb11a069cb",
-};
-mavenoid.push({ event: "troubleshooter-open", orgName: "MOBI", position: "right", alwaysOpen: true, folderName: ""});
-setTimeout(() => { mavenoid.push(({event: "troubleshooter-open", orgName: "MOBI", position: "right", alwaysOpen: true, openByDefault: true})) }, 5000); */
