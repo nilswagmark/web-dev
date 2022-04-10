@@ -13,3 +13,12 @@
     clientId: "99ba5c301fc1e56075b4ed6f4c72489f56d852f0",
   };
   mavenoid.push({ event: "troubleshooter-open", orgName: "NilsDemos2", position: "right"});
+
+
+  fetch("https://swapi.dev/api/people/1/")
+    .then((res) => {
+      console.log("RESOLVED", res);
+    })
+    .catch((e) => {
+      console.log("ERROR", e);
+    });
