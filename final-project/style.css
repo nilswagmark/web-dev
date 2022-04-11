@@ -1,0 +1,27 @@
+p {
+    color: red;
+}
+
+button {
+    background-color: magenta;
+}
+
+h1 {
+    text-align: center;
+}
+
+#myheader {
+    color: red;
+}
+
+
+.poem {
+    background-color: blue;
+}
+
+
+div {
+    width: 200;
+    height: 200;
+}
+

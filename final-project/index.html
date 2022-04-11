@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,6 +18,14 @@
     <a href="style.css">Go to CSS file</a>
 
 </div>
+
+<h2 id="myheader"> This is a header</h2>
+
+<style>
+    ol {
+        color:blueviolet;
+    }
+</style>
 
   
     <ol>
@@ -33,7 +43,7 @@
     <img src="https://www.rd.com/wp-content/uploads/2020/01/GettyImages-1131335393-e1580493890249-scaled.jpg" width="200px" alt="">
 
 
-    <section>
+    <section class=poem>
         <p>
             Love is a fog that burns away <br>
             <hr>
@@ -45,7 +55,7 @@
 
     <table>
         <thead>
-            <th>Name</th>
+            <th colspan="2"> Name</th>
             <th>Age</th>
             
         </thead>
@@ -63,11 +73,28 @@
         </tbody>
 
     </table>
+
+
+    <form action="https://www.google.com/">
+        <label for="name">Enter your name:</label>
+        <input type="text" placeholder="Name" name="name" id="name"> 
+        <br>
+        <label for="password">Enter your password:</label>
+        <input type="password" placeholder="Password" name="password" id="password">
+        <br>
+        <label for="age">Enter your age:</label>
+        <input type="number" name="age" id="age"> 
+        <button>Submit</button>
+        <input type="submit">
+    </form>
+
+
+    <form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <input type="checkbox" name="checked">
+    </form>
+
  
-
-  
-    
-
 
 
 </body>
