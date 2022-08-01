@@ -27,9 +27,9 @@ while (num<10) {
 }
  */
 
-const btn = document.querySelector("#v2");
+/* const btn = document.querySelector("#v2"); */
 
-const MyMath = {
+/* const MyMath = {
     PI: 3.1415,
     square: function(num) {
         return num*num;
@@ -38,7 +38,7 @@ const MyMath = {
 
 const add = function (x,y) {
     return x+y;
-}
+} */ */
 
 /* 
 let input = prompt("Hey, say something!")
